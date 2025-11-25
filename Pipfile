@@ -21,8 +21,10 @@ pillow = "*"
 requests = "*"
 tqdm = "*"
 tensorflow = "*"
+ipykernel = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
-python_version = "3.12"
+python_version = "3.11"
