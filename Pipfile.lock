@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "611beae0072457000d2fd0660dcb07aa272f2a7a548757a10ef138f85512f326"
+            "sha256": "653350305e43a59fdade69a79fa9bf5f482ab92873c2124f2495091a9846d0de"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -611,6 +611,22 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.6.0"
         },
+        "gitdb": {
+            "hashes": [
+                "sha256:5ef71f855d191a3326fcfbc0d5da835f26b13fbcba60c32c21091c349ffdb571",
+                "sha256:67073e15955400952c6565cc3e707c554a4eea2e428946f7a4c162fab9bd9bcf"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==4.0.12"
+        },
+        "gitpython": {
+            "hashes": [
+                "sha256:85b0ee964ceddf211c41b9f27a49086010a190fd8132a24e21f362a4b36a791c",
+                "sha256:8908cb2e02fb3b93b7eb0f2827125cb699869470432cc885f019b8fd0fccff77"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==3.1.45"
+        },
         "google-pasta": {
             "hashes": [
                 "sha256:4612951da876b1a10fe3960d7226f0c7682cf901e16ac06e473b267a5afa8954",
@@ -778,6 +794,7 @@
                 "sha256:58a3fc88533d5930c3546dc7eac66c6d288acde4f801e2001e65edc5dc9cf0db",
                 "sha256:763b5ec6c5b7776f6a8d7ce09b267693b4e5ce75cb50ae696aaefb3c85e1ea4c"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.10'",
             "version": "==7.1.0"
         },
@@ -913,6 +930,14 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==2.17.0"
+        },
+        "jupyter-server-mathjax": {
+            "hashes": [
+                "sha256:416389dde2010df46d5fbbb7adb087a5607111070af65a1445391040f2babb5e",
+                "sha256:bb1e6b6dc0686c1fe386a22b5886163db548893a99c2810c36399e9c4ca23943"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.2.6"
         },
         "jupyter-server-terminals": {
             "hashes": [
@@ -1374,6 +1399,15 @@
             "markers": "python_version >= '3.8'",
             "version": "==7.16.6"
         },
+        "nbdime": {
+            "hashes": [
+                "sha256:d8279f8f4b236c0b253b20d60c4831bb67843ed8dbd6e09f234eb011d36f1bf2",
+                "sha256:e5a43aca669c576c66e757071c0e882de05ac305311d79aded99bfb5a3e9419e"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.6'",
+            "version": "==4.0.2"
+        },
         "nbformat": {
             "hashes": [
                 "sha256:322168b14f937a5d11362988ecac2a4952d3d8e3a2cbeb2319584631226d5b3a",
@@ -1392,11 +1426,11 @@
         },
         "networkx": {
             "hashes": [
-                "sha256:0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec",
-                "sha256:d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037"
+                "sha256:285276002ad1f7f7da0f7b42f004bcba70d381e936559166363707fdad3d72ad",
+                "sha256:cdb395b105806062473d3be36458d8f1459a4e4b98e236a66c3a48996e07684f"
             ],
             "markers": "python_version >= '3.11'",
-            "version": "==3.5"
+            "version": "==3.6"
         },
         "notebook": {
             "hashes": [
@@ -1609,6 +1643,14 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==0.18.0"
+        },
+        "overrides": {
+            "hashes": [
+                "sha256:55158fa3d93b98cc75299b1e67078ad9003ca27945c76162c1c0766d6f91820a",
+                "sha256:c7ed9d062f78b8e4c1a7b70bd8796b35ead4d9f510227ef9c5dc7626c60d7e49"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==7.7.0"
         },
         "packaging": {
             "hashes": [
@@ -2451,6 +2493,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==1.17.0"
+        },
+        "smmap": {
+            "hashes": [
+                "sha256:26ea65a03958fa0c8a1c7e8c7a58fdc77221b8910f6be2131affade476898ad5",
+                "sha256:b30115f0def7d7531d22a0fb6502488d879e75b260a9db4d0819cfb25403af5e"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==5.0.2"
         },
         "sniffio": {
             "hashes": [

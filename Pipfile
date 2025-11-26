@@ -22,6 +22,7 @@ requests = "*"
 tqdm = "*"
 tensorflow = "*"
 ipykernel = "*"
+nbdime = "*"
 
 [dev-packages]
 ipykernel = "*"
